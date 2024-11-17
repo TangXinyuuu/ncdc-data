@@ -17,6 +17,6 @@ jobs:
         with:
           secrets: ${{ secrets.GCS_SERVICE_ACCOUNT }}
           bucket: 'hw6_q1'
-          sync_dir_from: '\data'
+          sync_dir_from: '/data'
           sync_dir_to: 'data'
           exclude: '.*\.md$|\.gitignore$|\.git/.*$|\.github/.*$'
